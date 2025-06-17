@@ -4,14 +4,16 @@
 // import Greeting from './greeting'
 // import AddMessage from './newfile'
 
+import Footer from "./footer";
 import Navigation from "./navigation";
-
+import Pagebody from "./pagebody";
 
 export default function MyApp() {
   return (
     <div>
     <Navigation/>
-      
+    <Pagebody/>  
+    <Footer/>
     </div>
     
   );

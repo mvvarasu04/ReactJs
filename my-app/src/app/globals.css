@@ -30,49 +30,14 @@ body
     background-position: fixed;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: white;
 }
-form
+.header 
 {
-    width: 400px;
-    height: auto;
-    margin: auto;
-    padding: 10px;
-    background: linear-gradient(100deg, green,goldenrod);
-    border-radius: 10px;
-    
-}
-input
-{
-    background-color: white;
-    display: block;
-    padding: 2px;
-    border-radius: 4px;
-
-}
-#name button{
-    width:50%;
-    margin: 10px;
-    margin-left: 100px;
-    background-color: blueviolet;
-    
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-
-.header {
   background:linear-gradient( 100deg,#6813b8 ,#2794c7 );
   padding: 5px;
   text-align: center;
 }
-
-
 .topnav {
   overflow: hidden;
   background-color: #e60e0e;
@@ -88,54 +53,67 @@ body {
   text-decoration: none;
   border-radius: 10px;
  
-
 }
 h2{
-    color:blue;
+    color:whitesmoke;
     font-weight: 900;
     font-size: x-large;
 }
 
-.topnav a:hover {
+.topnav a:hover 
+{
   background-color: #05e423;
   color: black;
-   box-shadow: 0 0 .25em .5em rgb(223, 23, 89), 0 0 .5em .75em rgb( rgb(214, 78, 112)) , inset 0 0 .5 .25 rgb(rgb(206, 190, 48));
+ text-shadow: 0 0 .25em .5em rgb(223, 23, 89), 0 0 .5em .75em rgb( rgb(214, 78, 112)) , inset 0 0 .5 .25 rgb(rgb(206, 190, 48));
 }
-.row
+h3
 {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    padding: 20px;
-    column-gap: 10px;
+  color: powderblue;
+  font-weight: 900;
+  font-size: x-large;
 }
-.column1
+#container
 {
-    background: radial-gradient(violet,purple);
-    padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; 
+  gap: 20px;
+  
 }
-.column2
+#form1
 {
-    background: radial-gradient(rgb(231, 191, 116),rgb(122, 122, 214));
-    padding: 20px;
-}
-.column3
-{
-    background: radial-gradient(rgb(199, 89, 89),rgb(194, 194, 55));
-    padding: 20px;
-}
+  width: 350px;
+  background-color: rgba(223, 112, 43,0.5);
+  position: relative;
+  left: 500px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
 
- @media screen and (max-width:600px) 
- {
-  .column
-   {
-    width: 100%;
-  }
-  }
+}
+#form1 input
+{
+  display: block;
+  border: 2px solid white ;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 30px;
+}
+#form1 h2{
+  width: 100%;
+  text-align: center;
+
+}
+#form1 button{
+  width: 100%;
+  border: 2px solid blueviolet;
+  border-radius: 4px;
+  background: purple;
+  margin:auto;
+}
 footer
 {
-    display: inline-block;
-    background-color: #6813b8;
-    width: 100%;
-    
+  background-color: rgba(106, 162, 214, 0.5);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
 }
-
